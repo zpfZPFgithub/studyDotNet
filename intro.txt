@@ -1,6 +1,6 @@
 ﻿Ⅰ，C#语言
 	一、.net体系结构
-		1，C#与.net关系
+		1，C#, asp.net与.net关系
 			asp.net通过c#语言在.net平台上实现。
 			.net平台包括CLR（Common Language RunTime，共用语言运行时）和FLC（FrameWork Class Library，框架类库）
 			CLR是.net平台的执行环境，提供内存管理，代码安全性检测等功能
@@ -55,9 +55,29 @@
 		8，Main()方法
 		9，有关编译c#文件的更多内容
 		10，控制台I/O
+		    常用方法：
+		    Console.ReadLine() 读取文本
+		    Console.Write() 将制定内容输出到控制台
+            Console.Write() 将制定内容输出到控制台并换行
 		11，使用注释
-		12，c#预处理命令
+		    // 单行注释
+		    /* 多行注释 */
+		    生成xml格式的注释，在变量，方法，类上面输入///自动出来
+		12，c#预处理命令、
+		    这些命令可以帮助让代码清晰（#region），调试方便等
+		    * #define, #undef
+		    * #if, #elif, #else, #endif
+		    * #warning 和 #error，编译器遇到他们会产生警告和错误，
+		    * #region, #endregion （快捷键 ctrl + k + s）
+		    * #pragma指令： 取消或阻止制定的编译警告  eg: http://www.jb51.net/article/45749.htm
 		13，c#编程规则
+		    主要是一些约定俗成的规则：
+		        * 标识符可以包含数字，但是首字母必须是字母或者下划线开头
+		        * 不能使用关键字作为标识符
+		    建议的规则：
+		        * 私有成员字段小写，private int subjectid;
+		        * 参数都是驼峰风湿， public void GetUserList(int startIndex, int endIndex);
+
 		14，小结
 	三、对象和类型
 		1，创建和使用类
@@ -68,7 +88,7 @@
 		6，部分类
 		7，静态类
 		8，Object 类
-		9，拓展和方法
+		9，拓展方法
 		10，小结
 	四、继承
 		1，继承
