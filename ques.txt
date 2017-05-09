@@ -1,0 +1,48 @@
+﻿
+1.C# 值类型和引用类型的区别
+2.如何使得一个类型可以在foreach 语句中使用
+3.sealed修饰的类有什么特点
+4.面向对象的3个基本特征
+5. .NET 托管资源与非托管资源
+6.string str=null与string str="" 有什么区别
+7.StringBuilder有什么作用
+8.序列化有何作用
+9.Base64编码用在何处
+10.字符串池是如何提高系统性能的？
+11.FileInfo 和 DirectoryInfo
+12.DateTime.Parse(mystring) 这行代码有什么问题
+13.System.Object的三个比较方法异同
+14.GetHashCode 方法有何作用？什么时候会用到该方法
+15.委托的原理
+16.委托回调静态方法和实例方法有何区别
+17. 什么是链式委托？
+18.ASP.NET 运行机制
+19.C＃中静态变量和方法用什么用处
+
+
+
+1.接口
+2.您在什么情况下会用到虚方法或抽象类，接口？
+3.重载(Overload )和覆写(Override)的区别
+4.值类型和引用类型的区别？写出C#的样例代码。
+5.委托和事件简述
+6.Session,ViewState,Application,cookie的区别?
+7.Application,Session,Cookie,ViewState和Cache生命周期
+8.ajax原理
+9.请叙述属性与索引器的区别
+10.String类与StringBuilder类有什么区别？为啥在.Net类库中要同时存在这2个类？
+11.浅谈C#中的枚举
+12.C#的New关键字的几种用法
+
+
+
+
+
+
+
+
+
+
+
+
+
